@@ -1,20 +1,19 @@
-[200~# Day 0 Setup Notes
+
+# Day 0 Setup Notes
 
 ## Environment Setup
 
-* Virtual environment is active: `(venv)`
+- Virtual environment is active: `(venv)`
+- VS Code extensions to install:
+  - Python
+  - Pylance
+  - Jupyter
+  - GitLens
+- Activate the virtual environment each day:
 
-* VS Code extensions to install:
-
-  * Python
-  * Pylance
-  * Jupyter
-  * GitLens
-
-* Activate the virtual environment each day:
-
-```bash
+```
 source venv/Scripts/activate
+
 ```
 
 ---
@@ -23,38 +22,44 @@ source venv/Scripts/activate
 
 ### Check current folder
 
-```bash
+```
 pwd
+
 ```
 
 ### See files and folders
 
-```bash
+```
 ls
+
 ```
 
 ### Move into a folder
 
-```bash
+```
 cd Day-01
+
 ```
 
 ### Go back one folder
 
-```bash
+```
 cd ..
+
 ```
 
 ### Create a folder
 
-```bash
+```
 mkdir Day-01
+
 ```
 
 ### Run a Python file
 
-```bash
+```
 python main.py
+
 ```
 
 ---
@@ -65,7 +70,7 @@ python main.py
 
 Example:
 
-```bash
+```
 cat > notes.md << "EOF"
 
 # My Notes
