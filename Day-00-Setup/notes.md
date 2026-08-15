@@ -3,8 +3,8 @@
 ### 1. Virtual Environments (venv)
 
 * **Concept:** Isolate project dependencies to avoid system-wide software conflicts.
-* **Windows (Git Bash):** Run source venv/Scripts/activate.
-* **Mac / Linux:** Run source venv/bin/activate.
+* **Windows (Git Bash):**  source venv/Scripts/activate.
+* **Mac / Linux:**  source venv/bin/activate.
 * **Visual Cue:** Terminal prompt prepends (venv) when active.
 * **Exit:** Run deactivate to close the environment.
 
