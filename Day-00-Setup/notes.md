@@ -1,79 +1,40 @@
+### Day 00: Technical Setup & Terminal Workflows
 
-# Day 0 Setup Notes
+### 1. Virtual Environments (venv)
 
-## Environment Setup
+* **Concept:** Isolate project dependencies to avoid system-wide software conflicts.
+* **Windows (Git Bash):** Run source venv/Scripts/activate.
+* **Mac / Linux:** Run source venv/bin/activate.
+* **Visual Cue:** Terminal prompt prepends (venv) when active.
+* **Exit:** Run deactivate to close the environment.
 
-- Virtual environment is active: `(venv)`
-- VS Code extensions to install:
-  - Python
-  - Pylance
-  - Jupyter
-  - GitLens
-- Activate the virtual environment each day:
+### 2. Terminal Navigation & Daily Routine
 
-```
-source venv/Scripts/activate
+* pwd: Print working directory to check your location.
+* ls -la: List files, including hidden system files (-a).
+* cd FolderName: Change directory downward into a specific folder.
+* cd ..: Move upward exactly one folder level.
+* mkdir Name: Create a brand new directory.
+* **Daily Flow:** Open terminal -> Navigate to repository root -> Activate venv -> Create and enter today's folder -> Confirm with pwd.
 
-```
+### 3. Terminal File Creation Methods
 
----
+* **touch file.py:** Creates an empty file placeholder. Best for structuring folders early.
+* **echo 'text' > file:** Writes text to a file. Overwrites existing contents completely.
+* **echo 'text' >> file:** Appends text safely to the bottom of the file.
+* **cat > file << "EOF":** Starts multi-line terminal writing. Terminate the input by typing EOF.
+* **nano file:** Mini terminal-based text editor. Save and exit using Ctrl+X -> Y -> Enter.
 
-## Basic Terminal Commands
+### 4. Automation & Git Version Control
 
-### Check current folder
+* **Step 1:** Run git status to see uncommitted workspace modifications.
+* **Step 2:** Run git add Day-XX-Name/ to stage specific folders only.
+* **Step 3:** Run git commit -m "Day X: Topics - Deliverable" for deployment snapshots.
+* **Step 4:** Run git push origin main to synchronize local code with GitHub.
 
-```
-pwd
+### 5. Core Reference Libraries
 
-```
-
-### See files and folders
-
-```
-ls
-
-```
-
-### Move into a folder
-
-```
-cd Day-01
-
-```
-
-### Go back one folder
-
-```
-cd ..
-
-```
-
-### Create a folder
-
-```
-mkdir Day-01
-
-```
-
-### Run a Python file
-
-```
-python main.py
-
-```
-
----
-
-## Creating Files with CAT and EOF
-
-`cat > filename << "EOF"` can be used to create a file and write text into it from the terminal.
-
-Example:
-
-```
-cat > notes.md << "EOF"
-
-# My Notes
-
-Today I learned how to use the terminal.
-
+* **Python Basics:** Python Tutor (code visualization) and Official Python Documentation.
+* **Data Science:** NumPy Documentation and Pandas Documentation.
+* **Machine Learning:** Scikit-learn Ecosystem and Hugging Face Hub.
+* **Interactive Code Workspaces:** Google Colab (Free GPUs) and Kaggle (Data hosting).
