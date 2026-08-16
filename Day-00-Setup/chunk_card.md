@@ -28,8 +28,8 @@ P - PROJECT/PORTFOLIO: GitHub repo organized by day.
 
 ## Visual Reference Images:
 
-![CHUNK CARD: DAY 0 - SETUP Overview](https://i.imgur.com/CG5fKzJ.png)
+![CHUNK CARD: DAY 0 - SETUP Overview](./images/chunk_card_1.png)
 
-![CHUNK CARD: DAY 0 - SETUP Terminal & Git Workflow](https://i.imgur.com/7qX8vN2.png)
+![CHUNK CARD: DAY 0 - SETUP Terminal & Git Workflow](./images/chunk_card_2.png)
 
 ======================================================
