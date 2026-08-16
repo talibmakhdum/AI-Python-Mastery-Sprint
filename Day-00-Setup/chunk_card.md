@@ -1,6 +1,7 @@
 ======================================================
        CHUNK CARD: DAY 0 - SETUP (Mnemonic: SETUP)   
 ======================================================
+
 S - SOFTWARE: Python 3.11, pip, venv
     Activate: source venv/Scripts/activate
 
@@ -22,4 +23,13 @@ U - UPLOAD (GIT):
 
 P - PROJECT/PORTFOLIO: GitHub repo organized by day.
     NEVER push venv/ or .env files.
+
+======================================================
+
+## Visual Reference Images:
+
+![CHUNK CARD: DAY 0 - SETUP Overview](https://i.imgur.com/CG5fKzJ.png)
+
+![CHUNK CARD: DAY 0 - SETUP Terminal & Git Workflow](https://i.imgur.com/7qX8vN2.png)
+
 ======================================================
